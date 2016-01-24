@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    <!-- 控件选中时 -->
+    <item android:state_selected="true" android:drawable="@drawable/btn_main_bg2"></item>
+    <!-- 控件按下时 -->
+    <item android:state_pressed="true" android:drawable="@drawable/btn_main_bg2"></item>
+	<item android:drawable="@drawable/btn_main_bg"></item>
+</selector>

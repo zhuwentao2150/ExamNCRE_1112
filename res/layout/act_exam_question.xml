@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.zhuwentao.ui.ActExamQuestion" >
+
+    <!-- 自定义的导航栏 -->
+
+    <com.zhuwentao.widget.MenuTop
+        android:id="@+id/examquestion_menutop"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp" >
+    </com.zhuwentao.widget.MenuTop>
+
+    <RelativeLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/main_bjt7" >
+
+        <LinearLayout
+            android:id="@+id/linearylayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="fill_parent"
+                android:layout_height="150dp"
+                android:layout_marginTop="10dp"
+                android:text="题目"
+                android:textColor="#ffffff"
+                android:textSize="18sp" />
+
+            <RadioGroup
+                android:id="@+id/rg_test"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical" >
+
+                <RadioButton
+                    android:id="@+id/x_rg_a"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="选项A"
+                    android:textColor="#ffffff" />
+
+                <RadioButton
+                    android:id="@+id/x_rg_b"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="选项B"
+                    android:textColor="#ffffff" />
+
+                <RadioButton
+                    android:id="@+id/x_rg_c"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="选项C"
+                    android:textColor="#ffffff" />
+
+                <RadioButton
+                    android:id="@+id/x_rg_d"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="选项D"
+                    android:textColor="#ffffff" />
+
+                <RadioButton
+                    android:id="@+id/x_rg_moren"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/main_bjt8"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/up_question"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/select_leftquestion" />
+
+            <Button
+                android:id="@+id/answer"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:visibility="invisible"
+                android:background="@drawable/select_btn_main"
+                android:text="提交答案" />
+
+            <Button
+                android:id="@+id/down_question"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/select_rightquestion" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

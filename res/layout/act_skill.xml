@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <!-- 自定义的导航栏 -->
+    <com.zhuwentao.widget.MenuTop
+        android:id="@+id/skill_menutop"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp" >
+    </com.zhuwentao.widget.MenuTop>
+    
+    <com.handmark.pulltorefresh.library.PullToRefreshListView
+        xmlns:ptr="http://schemas.android.com/apk/res-auto"
+        ptr:ptrHeaderBackground="#CDC1C5"
+        android:id="@+id/lv_actskill_list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#ffffff"
+        android:divider="#CDC1C5"
+        android:dividerHeight="8dp" />
+    
+
+</LinearLayout>

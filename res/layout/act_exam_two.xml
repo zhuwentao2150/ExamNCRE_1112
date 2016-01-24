@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_bjt"
+    android:orientation="vertical" >
+    
+    <!-- 自定义的导航栏 -->
+    <com.zhuwentao.widget.MenuTop
+        android:id="@+id/two_menutop"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp" >
+    </com.zhuwentao.widget.MenuTop>
+    
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_examtwo_01"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:paddingLeft="15dp"
+            android:drawableLeft="@drawable/ic_exam_question"
+            android:background="@drawable/select_main_two"
+            android:textColor="#ffffff"
+            android:text="二级 C" />
+
+        <Button
+            android:id="@+id/btn_examtwo_02"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:paddingRight="15dp"
+            android:drawableRight="@drawable/ic_exam_question"
+            android:background="@drawable/select_main_two"
+            android:textColor="#ffffff"
+            android:text="二级 C++" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_examtwo_03"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:paddingLeft="15dp"
+            android:drawableLeft="@drawable/ic_exam_question"
+            android:background="@drawable/select_main_two"
+            android:textColor="#ffffff"
+            android:text="二级 VB" />
+
+        <Button
+            android:id="@+id/btn_examtwo_04"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:paddingRight="15dp"
+            android:drawableRight="@drawable/ic_exam_question"
+            android:background="@drawable/select_main_two"
+            android:textColor="#ffffff"
+            android:text="二级 Java" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_examtwo_05"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:paddingLeft="15dp"
+            android:drawableLeft="@drawable/ic_exam_question"
+            android:background="@drawable/select_main_two"
+            android:textColor="#ffffff"
+            android:text="二级 Access" />
+
+        <Button
+            android:id="@+id/btn_examtwo_06"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:paddingRight="15dp"
+            android:drawableRight="@drawable/ic_exam_question"
+            android:background="@drawable/select_main_two"
+            android:textColor="#ffffff"
+            android:text="二级 MS Office" />
+    </LinearLayout>
+    
+
+    
+    <LinearLayout 
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+		android:orientation="horizontal"        
+        >
+        <TextView 
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="————————	我的考试分析	————————"
+            />
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        >
+        <Button 
+            android:id="@+id/btn_examtwo_07"
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:paddingLeft="20dp"
+            android:drawableLeft="@drawable/ic_exam_question_error"
+            android:background="@drawable/select_main_two"
+            android:textColor="#ffffff"
+            android:text="我的错题"
+            />
+        <Button 
+            android:id="@+id/btn_examtwo_08"
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:paddingRight="20dp"
+            android:drawableRight="@drawable/ic_exam_question_collect"
+            android:background="@drawable/select_main_two"
+            android:textColor="#ffffff"
+            android:text="我的收藏"
+            />
+        
+    </LinearLayout>
+    
+
+</LinearLayout>

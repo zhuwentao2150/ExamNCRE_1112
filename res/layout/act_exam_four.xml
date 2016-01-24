@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_bjt"
+    android:orientation="vertical" >
+
+    <!-- 自定义的导航栏 -->
+
+    <com.zhuwentao.widget.MenuTop
+        android:id="@+id/four_menutop"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp" >
+    </com.zhuwentao.widget.MenuTop>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="30dp"
+        android:layout_weight="0.5"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_examfour_01"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:paddingLeft="15dp"
+            android:drawableLeft="@drawable/ic_exam_question"
+            android:background="@drawable/select_main_four"
+            android:textColor="#ffffff"
+            android:text="网络工程师" />
+
+        <Button
+            android:id="@+id/btn_examfour_02"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:paddingRight="15dp"
+            android:drawableRight="@drawable/ic_exam_question"
+            android:background="@drawable/select_main_four"
+            android:textColor="#ffffff"
+            android:text="数据库工程师" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_examfour_03"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:paddingLeft="15dp"
+            android:drawableLeft="@drawable/ic_exam_question"
+            android:background="@drawable/select_main_four"
+            android:textColor="#ffffff"
+            android:text="软件测试工程师" />
+
+        <Button
+            android:id="@+id/btn_examfour_04"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:paddingRight="15dp"
+            android:drawableRight="@drawable/ic_exam_question"
+            android:background="@drawable/select_main_four"
+            android:textColor="#ffffff"
+            android:text="信息安全工程师" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_examfour_05"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:layout_margin="5dp"
+        android:paddingTop="10dp"
+        android:drawableTop="@drawable/ic_exam_question"
+        android:background="@drawable/select_main_four"
+        android:textColor="#ffffff"
+        android:text="嵌入式系统开发工程师" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="————————	我的考试分析	————————" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_examfour_06"
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:paddingLeft="20dp"
+            android:drawableLeft="@drawable/ic_exam_question_error"
+            android:background="@drawable/select_main_four"
+            android:textColor="#ffffff"
+            android:text="我的错题" />
+
+        <Button
+            android:id="@+id/btn_examfour_07"
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:paddingRight="20dp"
+            android:drawableRight="@drawable/ic_exam_question_collect"
+            android:background="@drawable/select_main_four"
+            android:textColor="#ffffff"
+            android:text="我的收藏" />
+
+    </LinearLayout>
+
+</LinearLayout>

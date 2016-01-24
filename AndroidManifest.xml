@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.zhuwentao.examncre_1112"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.INTERNET" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" >
+    </uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ncre"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.NoTitleBar" >
+        <activity
+            android:name="com.zhuwentao.ui.ActWelcome"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.zhuwentao.ui.MainActivity"
+            android:label="主界面" />
+        <activity
+            android:name="com.zhuwentao.ui.ActExamOne"
+            android:label="国一" />
+        <activity
+            android:name="com.zhuwentao.ui.ActExamTwo"
+            android:label="国二" />
+        <activity
+            android:name="com.zhuwentao.ui.ActExamThree"
+            android:label="国三" />
+        <activity
+            android:name="com.zhuwentao.ui.ActExamFour"
+            android:label="国四" />
+        <activity
+            android:name="com.zhuwentao.ui.ActExamList"
+            android:label="试卷列表" />
+        <activity
+            android:name="com.zhuwentao.ui.ActExamQuestion"
+            android:label="题目列表" />
+        <activity
+            android:name="com.zhuwentao.ui.ActCollectQuestion"
+            android:label="收藏列表" />
+        <activity
+            android:name="com.zhuwentao.ui.ActErrorQuestion"
+            android:label="错题列表" />
+        <activity
+            android:name="com.zhuwentao.ui.ActAbout"
+            android:label="关于软件" />
+        <activity
+            android:name="com.zhuwentao.ui.ActStoryWeb"
+            android:label="文章" />
+        <activity
+            android:name="com.zhuwentao.ui.ActOutline"
+            android:label="考试大纲主页" />
+        <activity
+            android:name="com.zhuwentao.ui.ActOutlineContent"
+            android:label="考试大纲内容" />
+        <activity
+            android:name="com.zhuwentao.ui.ActSkill"
+            android:label="考试技巧文章" />
+        <activity
+            android:name="com.zhuwentao.ui.ActSkillContent"
+            android:label="考试技巧文章内容" />
+    </application>
+
+</manifest>

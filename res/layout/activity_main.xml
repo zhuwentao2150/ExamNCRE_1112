@@ -1,0 +1,205 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_bjt3"
+    android:orientation="vertical" >
+
+    <!-- 自定义的导航栏D3D3D3 -->
+
+    <com.zhuwentao.widget.MenuTop
+        android:id="@+id/main_menutop"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp" >
+    </com.zhuwentao.widget.MenuTop>
+
+    <!-- 图片轮播 -->
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/vp"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="20dip"
+            android:layout_gravity="bottom"
+            android:background="#33000000"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dip"
+                android:gravity="center" >
+
+                <View
+                    android:id="@+id/v_dot0"
+                    style="@style/dot_style" />
+
+                <View
+                    android:id="@+id/v_dot1"
+                    style="@style/dot_style" />
+
+                <View
+                    android:id="@+id/v_dot2"
+                    style="@style/dot_style" />
+
+                <View
+                    android:id="@+id/v_dot3"
+                    style="@style/dot_style" />
+
+                <View
+                    android:id="@+id/v_dot4"
+                    style="@style/dot_style" />
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_main_01"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_margin="6dp"
+            android:layout_weight="1"
+            android:background="@drawable/select_main_one"
+            android:drawableLeft="@drawable/main_ks"
+            android:padding="8dp"
+            android:textColor="#ffffff"
+            android:text="计算机一级" />
+
+        <Button
+            android:id="@+id/btn_main_02"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_margin="6dp"
+            android:layout_weight="1"
+            android:background="@drawable/select_main_two"
+            android:drawableRight="@drawable/main_ks"
+            android:padding="8dp"
+            android:textColor="#ffffff"
+            android:text="计算机二级" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_main_03"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_margin="6dp"
+            android:layout_weight="1"
+            android:background="@drawable/select_main_three"
+            android:drawableLeft="@drawable/main_ks"
+            android:padding="8dp"
+            android:textColor="#ffffff"
+            android:text="计算机三级" />
+
+        <Button
+            android:id="@+id/btn_main_04"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_margin="6dp"
+            android:layout_weight="1"
+            android:background="@drawable/select_main_four"
+            android:drawableRight="@drawable/main_ks"
+            android:padding="8dp"
+            android:textColor="#ffffff"
+            android:text="计算机四级" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.7"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/btn_main_05"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/select_main_button"
+                android:drawableTop="@drawable/main_ic_exam_jq2"
+                android:text="技巧"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/btn_main_06"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/select_main_button"
+                android:drawableTop="@drawable/main_ic_exam_dg2"
+                android:text="大纲"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/btn_main_07"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/select_main_button"
+                android:drawableTop="@drawable/main_ic_exam_mw"
+                android:text="美文"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/btn_main_08"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/select_main_button"
+                android:drawableTop="@drawable/main_ic_exam_gy"
+                android:text="关于"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

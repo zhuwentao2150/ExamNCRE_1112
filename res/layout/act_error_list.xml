@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D9D9D9"
+    android:orientation="vertical" >
+
+    <!-- 自定义的导航栏 -->
+
+    <com.zhuwentao.widget.MenuTop
+        android:id="@+id/error_list_menutop"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp" >
+    </com.zhuwentao.widget.MenuTop>
+
+    <RelativeLayout
+        android:id="@+id/error_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/main_bjt7" >
+
+        <LinearLayout
+            android:id="@+id/error_linearylayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tv_title_error"
+                android:layout_width="fill_parent"
+                android:layout_height="150dp"
+                android:layout_marginTop="10dp"
+                android:text="暂无数据"
+                android:textColor="#ffffff"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:text="A"
+                    android:textColor="#ffffff" />
+
+                <TextView
+                    android:id="@+id/x_a_error"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="暂无数据"
+                    android:textColor="#ffffff" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:text="B"
+                    android:textColor="#ffffff" />
+
+                <TextView
+                    android:id="@+id/x_b_error"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="暂无数据"
+                    android:textColor="#ffffff" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:text="C"
+                    android:textColor="#ffffff" />
+
+                <TextView
+                    android:id="@+id/x_c_error"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="暂无数据"
+                    android:textColor="#ffffff" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:text="D"
+                    android:textColor="#ffffff" />
+
+                <TextView
+                    android:id="@+id/x_d_error"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="暂无数据"
+                    android:textColor="#ffffff" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/main_bjt8"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/up_question_error"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/select_leftquestion" />
+
+            <Button
+                android:id="@+id/answer_error"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/select_btn_main"
+                
+                android:text="查看答案" />
+
+            <Button
+                android:id="@+id/down_question_error"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/select_rightquestion" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="50dp"
+    android:background="@drawable/main_bjt8"
+    android:orientation="horizontal" >
+
+    <!-- 标题 -->
+
+    <TextView
+        android:id="@+id/tv_menutop_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="标题"
+        android:textColor="#ffffff"
+        android:textSize="20dp" />
+    <!-- 左边按钮 -->
+
+    <Button
+        android:id="@+id/btn_menutop_left"
+        android:layout_width="30dp"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="5dp"
+        android:background="@drawable/select_left_back" />
+
+    <Button
+        android:id="@+id/menu_answer_card"
+        android:layout_width="30dp"
+        android:layout_height="fill_parent"
+        android:layout_alignParentRight="true"
+        android:layout_margin="6dp"
+        android:background="@drawable/select_right_answer_card" />
+
+    <Button
+        android:id="@+id/menu_collect"
+        android:layout_width="30dp"
+        android:layout_height="fill_parent"
+        android:layout_margin="6dp"
+        android:layout_toLeftOf="@id/menu_answer_card"
+        android:background="@drawable/select_answer_collect" />
+
+  
+
+</RelativeLayout>

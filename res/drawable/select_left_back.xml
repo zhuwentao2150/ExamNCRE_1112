@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    <!-- 控件选中时 -->
+    <item android:state_selected="true" android:drawable="@drawable/ic_left_white2"></item>
+    <!-- 控件按下时 -->
+    <item android:state_pressed="true" android:drawable="@drawable/ic_left_white2"></item>
+    <!-- 按钮默认的状态 -->
+	<item android:drawable="@drawable/ic_left_white"></item>
+</selector>

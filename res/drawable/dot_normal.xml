@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval" >
+    <!-- solid实心，使用color设置填充的颜色 -->
+    <solid android:color="#33000000" />
+    <!-- corners圆角，radius越大，角越圆 -->
+    <corners android:radius="10dip" />
+</shape>

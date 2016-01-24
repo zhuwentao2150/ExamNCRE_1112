@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_bjt"
+    android:orientation="vertical" >
+    
+    <com.zhuwentao.widget.MenuTop
+        android:id="@+id/outline_menutop"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp" >
+    </com.zhuwentao.widget.MenuTop>
+    
+    
+    <ViewFlipper
+        android:id="@+id/viewFlipper"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <ImageView
+                android:id="@+id/show1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/main_one" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <ImageView
+                android:id="@+id/show2"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/main_two" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <ImageView
+                android:id="@+id/show3"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/main_three" />
+        </LinearLayout>
+    </ViewFlipper>
+    
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/outline_01"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="5dp"
+            android:textColor="#ffffff"
+            android:text="计算机一级考试大纲"
+            android:background="@drawable/select_main_one"
+            android:scaleType="fitXY" />
+
+        <Button
+            android:id="@+id/outline_02"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#ffffff"
+            android:text="计算机二级考试大纲"
+            android:background="@drawable/select_main_two"
+            android:scaleType="fitXY" />
+
+        <Button
+            android:id="@+id/outline_03"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#ffffff"
+            android:text="计算机三级考试大纲"
+            android:background="@drawable/select_main_three"
+            android:scaleType="fitXY" />
+        <Button
+            android:id="@+id/outline_04"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#ffffff"
+            android:text="计算机四级考试大纲"
+            android:background="@drawable/select_main_four"
+            android:scaleType="fitXY" />
+    </LinearLayout>
+    
+
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 控件选中时 -->
+    <item android:state_selected="true">
+        <color android:color="#808E8E8E"/>
+    </item>
+    <!-- 控件按下时 -->
+    <item android:state_pressed="true">
+        <color android:color="#808E8E8E"/>
+    </item>
+    <!-- 按钮默认的状态 -->
+    <item>
+        <color android:color="#8033cc00"/>
+    </item>
+
+</selector>
